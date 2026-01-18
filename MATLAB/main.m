@@ -27,4 +27,5 @@ n = vecnorm(pts);
 [maxNorm, idxMax] = max(n);
 [minNorm, idxMin] = min(n);
 p_max = pts(:, idxMax);
+
 p_min = pts(:, idxMin);
